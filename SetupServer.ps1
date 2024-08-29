@@ -1,1 +1,1 @@
-Configuration SetupServer {\r\n    Node localhost {\r\n                               WindowsFeature IIS {\r\n                               Name = \"Web-Server\";\r\n            Ensure = \"Present\"\r\n        }\r\n    }\r\n}
+Configuration SetupServer {\r\n    Node localhost {\r\n                               WindowsFeature IIS {\r\n                               Name = \"SetupServer\";\r\n            Ensure = \"Present\"\r\n        }\r\n    }\r\n}
